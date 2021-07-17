@@ -5,13 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/App.scss" line="48" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44475d49-b92e-49f8-a4c7-00c85d529150" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/App.scss" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-    </list>
+    <list default="true" id="44475d49-b92e-49f8-a4c7-00c85d529150" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,12 +240,12 @@
       <workItem from="1626480514332" duration="7757000" />
       <workItem from="1626494058540" duration="955000" />
       <workItem from="1626506923684" duration="15152000" />
-      <workItem from="1626530936786" duration="5053000" />
+      <workItem from="1626530936786" duration="5181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28917000" />
+    <option name="totallyTimeSpent" value="29045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1345" extended-state="6" />

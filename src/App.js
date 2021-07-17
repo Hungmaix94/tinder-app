@@ -62,7 +62,6 @@ function App() {
                         <div className='cardContainer'>
                             {people.map((person) => {
                                 let user = person.user;
-                                let seed = person.seed;
                                 return <SwipeComponent
                                     key={user.username}
                                     flickOnSwipe={true}

@@ -1,5 +1,4 @@
 import React from "react";
-import {get} from 'lodash'
 import style from './index.module.scss';
 import TinderCard from "./TinderCard";
 
