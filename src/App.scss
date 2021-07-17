@@ -1,0 +1,131 @@
+.tinder-app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  min-width: 320px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  button {
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #9198e5;
+    transition: 200ms;
+    margin: 0 10px;
+    font-weight: bolder;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.10);
+  }
+}
+
+.cardContainer {
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
+  width: 30vw;
+  padding: 20px;
+  max-width: 85vw;
+  height: 30vw;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card > h3 {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 80vw;
+    height: 80vw;
+    margin-top: 10vh;
+  }
+}
+
+.tinderCards__cardContainer {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.swipe {
+  position: absolute;
+}
+
+.tab-button {
+  font-size: 30px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+
+  &.active {
+    position: relative;
+    color: #FE3C72;
+  }
+
+  &.active::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #FE3C72;
+    width: 100%;
+    top: -5px;
+    left: 0;
+  }
+}
+
+.buttons {
+  min-width: 260px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 48px;
+  background-color: rgba(254, 60, 114, 0.32);
+  transition: 200ms;
+  margin: 0 10px;
+  font-weight: bolder;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+  background: #FE3C72;
+}

@@ -1,0 +1,60 @@
+.tinderCard {
+  background: #ffffff;
+  min-width: 300px;
+  min-height: 369px;
+  padding: 5px;
+  box-shadow: 5px 3px 5px 1px #fe3c72a6;
+  border-radius: 15px;
+
+  .tinderImageWrapper {
+    min-height: 164px;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+
+    .tinderImage {
+      background: #ffffff;
+      border: 1px solid #d8e0ea;
+      border-radius: 50%;
+      position: absolute;
+      padding: 3px;
+      top: 64px;
+      left: calc(50% - 64px);
+    }
+  }
+
+  .tinderInfoWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    margin: 30px;
+
+    .tinderInfoTitle {
+      color: #9f9f9f;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .tinderInfoDetail {
+      font-size: 22px;
+      color: #253036;
+      font-weight: 500;
+    }
+  }
+
+  .tabButtonWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.favoriteList {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  div {
+    margin: 5px;
+  }
+}
